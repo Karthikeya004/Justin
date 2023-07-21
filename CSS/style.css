@@ -1,76 +1,118 @@
 @import url("https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200&display=swap");
+
 * {
     font-family: "Ysabeau SC", sans-serif;
     /* color: whitesmoke; */
-  }
-.bannerBgImage{
+}
+
+.bannerBgImage {
     height: 100vh;
     background: url("../IMG/bg.jpeg");
     background-size: 100%;
     position: relative;
 }
 
-.bannerText{
+.bannerText {
     text-align: left;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     color: whitesmoke;
 }
-.card{
+
+.card {
     cursor: pointer;
     background-color: rgba(87, 86, 86, 0.812);
     color: #fff;
 }
-.card:hover{
+
+.card:hover {
     color: aliceblue;
     background-color: black;
     /* border: 5px solid rgb(68, 53, 181); */
     box-shadow: 5px 5px 10px forestgreen;
 }
-.bIcon{
+
+.bIcon {
     width: 100%;
     text-align: center;
     font-size: 40px;
 }
-.img-fluid:hover{
+
+.img-fluid:hover {
     border: 2px solid cornsilk;
     box-shadow: 5px 5px 10px forestgreen;
-    
+
 }
+
 body {
     background-color: #1a1a1a;
     color: #fff;
 }
-.card a{
+
+.card a {
     text-decoration-line: none;
 }
-.row a{
+
+.row a {
     text-decoration-line: none;
 }
-.row a:link{
+
+.row a:link {
     color: blue;
 }
-.row a:visited{
+
+.row a:visited {
     color: blue;
 }
-.row a:hover{
+
+.row a:hover {
     color: hotpink;
 }
-.row a:active{
-    color: aqua;
-}
-.card a:link{
-    color: blue;
-}
-.card a:visited{
-    color: blue;
-}
-.card a:hover{
-    color: hotpink;
-}
-.card a:active{
+
+.row a:active {
     color: aqua;
 }
 
+.card a:link {
+    color: blue;
+}
+
+.card a:visited {
+    color: blue;
+}
+
+.card a:hover {
+    color: hotpink;
+}
+
+.card a:active {
+    color: aqua;
+}
+
+.whatsapp {
+    color: #25D366;
+}
+
+.instagram {
+    color: transparent;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.discord {
+    color: #7289DA;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.linkedin::before {
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 0;
+}
